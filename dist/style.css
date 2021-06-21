@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/src/img/background-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    color:rgb(235, 235, 235);
+    background-color: red;
+    padding-bottom: 20px;
+    background: #00000055;
+}
+
+.nav {
+    padding: 20px 20px 0px 20px;
+}
+
+.nav:hover {
+    color: rgb(235, 235, 235);
+    -webkit-text-stroke: 0.2px black;
+    cursor: pointer;
+}
+
+/* HOME PAGE */
+
+#title-and-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#icon {
+    width: 85px;
+    height: 95px;
+}
+
+#title {
+    -webkit-text-stroke: 0.3px black;
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(235, 235, 235)
+}
+
+#message-and-button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    color: rgb(231, 231, 231);
+    font-size: 40px;
+    font-family: 'Mate SC', serif;
+    -webkit-text-stroke: 0.3px black;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left:130px;
+    margin-right:130px;
+    padding: 70px;
+}
+
+#button-div {
+    padding-top: 20px;
+}
+
+#button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+#menu-btn {
+    background-color: #eceaea55;
+    border: 0;
+    padding: 15px 30px;
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    color:rgb(231, 231, 231)
+    
+}
+
+#menu-btn:hover {
+    cursor: pointer;
+    background-color: #c8c8c855;
+}
+
+/* MENU PAGE */
+
+#menu-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#menu-title {
+    -webkit-text-stroke: 0.3px black;
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(235, 235, 235)
+}
+
+#food-and-prices {
+    margin-top: 30px;
+    padding: 50px 100px;
+    background: rgba(0, 0, 0, 0.5);;
+    color:rgb(231, 231, 231);
+    font-size: 24px;
+    font-family: 'Mate SC', serif;
+}
+
+#second-dish, #third-dish {
+    padding-top: 40px;
+}
+
+#first {
+    margin-bottom: 5px;
+}
+
+.dish-name, .dish-price {
+    font-size: 36px;
+}
+
+/* CONTACT PAGE */
+
+#contact-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    -webkit-text-stroke: 0.3px black;
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(235, 235, 235)
+}
+
+#text-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 0px 100px 0px;
+    margin: 0px 400px;
+    font-family: 'Mate SC', serif;
+    font-size: 36px;
+    color:rgb(235, 235, 235);
+}
+
+.info {
+    margin-top: 20px;
+}
+
