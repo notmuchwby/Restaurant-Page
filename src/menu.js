@@ -1,6 +1,4 @@
 export default function menu() {
-    const content = document.querySelector('#content');
-    
     // main div
     const menu = document.createElement('div');
     menu.id = "menu";
@@ -31,12 +29,12 @@ export default function menu() {
     const firstDishTitle = document.createElement('p');
     firstDishTitle.id = "first";
     firstDishTitle.className = "dish-name";
-    firstDishTitle.innerHTML = "Adana Kebab";
+    firstDishTitle.innerHTML = "Pide";
     firstDish.appendChild(firstDishTitle);
 
     const firstDishDescription = document.createElement('p');
     firstDishDescription.id = "first";
-    firstDishDescription.innerHTML = "Very tasty dish yes yes"
+    firstDishDescription.innerHTML = "Also known as 'Turkish pizza'"
     firstDish.appendChild(firstDishDescription);
 
 
@@ -61,7 +59,7 @@ export default function menu() {
 
     const secondDishDescription = document.createElement('p');
     secondDishDescription.id = "second";
-    secondDishDescription.innerHTML = "Also a very good dish yes yes";
+    secondDishDescription.innerHTML = "Customers' most favorite dish";
     secondDish.appendChild(secondDishDescription);
 
     const secondDishPrice = document.createElement('p');
@@ -86,7 +84,7 @@ export default function menu() {
 
     const thirdDishDescription = document.createElement('p');
     thirdDishDescription.id = "third";
-    thirdDishDescription.innerHTML = "Amazing pilav";
+    thirdDishDescription.innerHTML = "Amazing rice dish";
     thirdDish.appendChild(thirdDishDescription);
 
     const thirdDishPrice = document.createElement('p');
@@ -95,5 +93,5 @@ export default function menu() {
     thirdDishPrice.innerHTML = "10$";
     thirdDish.appendChild(thirdDishPrice);
 
-    content.appendChild(menu);
+    return menu;
 }

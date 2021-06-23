@@ -1,6 +1,4 @@
  export default function contact() {
-   const content = document.querySelector('#content');
-
    const contact = document.createElement('div');
 
 
@@ -40,6 +38,5 @@
    email.innerHTML = "Email: donerkebab@donerkebablol.com"
    textArea.appendChild(email);
 
-   content.appendChild(contact);
-
+   return contact;
  }

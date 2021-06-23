@@ -1,6 +1,8 @@
+import {renderContent} from './index'
+import menu from './menu'
+import tagandshoutouts from './tagandshoutouts';
+
 export default function home() {
-    const content = document.querySelector('#content');
-    
     // main div that we add to #content
     const home = document.createElement('div');
     home.id = "home-page";
@@ -49,5 +51,12 @@ export default function home() {
 
     homePageContent.appendChild(greetingMessageAndButton);
 
-    content.appendChild(home);
+    // additional menu button 
+
+    btn.addEventListener('click', function() {
+        renderContent(menu());
+        tagandshoutouts();
+    })
+
+    return home;
 }
